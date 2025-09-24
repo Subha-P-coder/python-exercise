@@ -31,6 +31,10 @@ print("first two:",playlist[:2])
 #list iteration
 favorite_foods = ["Dosa", "idli", "parotta","icecream","biriyani","sapathi"]
 
+# you can update  in lists but you can't change in tuples because it is immutable
+favorite_foods[1] = "vada"
+print(favorite_foods)
+
 for food in favorite_foods:
     print(food)
 
