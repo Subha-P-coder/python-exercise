@@ -47,6 +47,7 @@ c.access_from_sub_class()
 print("\n Access From other class:")
 s.access_from_other_class(p)
 
+# -------------------------------------------
 
 # method access
 class Parent:
